@@ -18,7 +18,7 @@
 
 .row {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   max-width: 100%;
   .col-md-6 {
@@ -27,28 +27,7 @@
 }
 
 h1 {
-  font-weight: 600;
-  font-size: 60px;
-  line-height: 80px;
-  /* or 133% */
-
-  color: #011255;
-}
-
-.my-1 {
-  margin: 1rem;
-}
-.my-2 {
-  margin: 2rem;
-}
-.my-3 {
-  margin: 3rem;
-}
-.my-4 {
-  margin: 4rem;
-}
-.my-5 {
-  margin: 5rem;
+  font-size: ;
 }
 //=====
 //=====
@@ -76,70 +55,27 @@ h1 {
       }
     }
   }
-  button {
-    cursor: pointer;
-  }
+
   .btn {
     font-weight: 500;
     font-size: 0.9rem;
     line-height: 21px;
+    /* identical to box height */
     font-weight: 600;
     color: #ff7a00;
   }
   .call {
     background: #ff7a00;
-    color: #fff;
     border-radius: 28px;
+    color: #fff;
   }
 }
 
 .header-content {
   h1 {
-    font-size: 5rem;
-    margin: 2rem 0;
-  }
-  p {
-    font-size: 1.2rem;
-    margin: 2rem 0;
-    line-height: 36px;
-    color: #787878;
-    font-weight: 500;
-  }
-  .btn {
-    background: #ff7a00;
-    border-radius: 60px;
-    font-size: 0.9rem;
-    font-weight: 700;
-  }
-  .start-btn {
-    color: #fff;
-    margin-right: 1rem;
-  }
-  .demo-btn {
-    background-color: #ffffff;
-    border: 1px solid #ff7a00;
-    color: #ff7a00;
-    &:hover {
-      background: #ff7a00;
-      color: #fff;
-    }
-  }
-}
-
-.second-section {
-  padding: 4rem 0;
-  text-align: center;
-  h1 {
-    margin: 1rem;
-  }
-  p {
-    font-size: 1.1rem;
-    margin: 1rem;
-    line-height: 32px;
-    /* or 178% */
-
-    text-align: center;
-
-    color: #787878;
+    font-weight: 600;
+    font-size: 7rem;
+    line-height: 80px;
+    color: #011255;
   }
 }

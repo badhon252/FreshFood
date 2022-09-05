@@ -76,9 +76,7 @@ h1 {
       }
     }
   }
-  button {
-    cursor: pointer;
-  }
+
   .btn {
     font-weight: 500;
     font-size: 0.9rem;
@@ -120,8 +118,8 @@ h1 {
     border: 1px solid #ff7a00;
     color: #ff7a00;
     &:hover {
-      background: #ff7a00;
-      color: #fff;
+      background: #fff;
+      color: #ff7a00;
     }
   }
 }
