@@ -201,6 +201,10 @@ button,
   text-align: center;
 }
 
+.review .container {
+  margin: 2rem 0 2rem 12rem;
+}
+
 .review .card {
   background: #ffffff;
   border-radius: 10px;
