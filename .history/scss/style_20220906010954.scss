@@ -62,18 +62,17 @@ h1 {
     li {
       margin: 1rem 2rem;
       list-style-type: none;
-
       .nav-link {
         text-decoration: none;
         color: black;
-        font-weight: 600;
+        font-weight: 500;
         font-size: 0.9rem;
         line-height: 21px;
+        /* identical to box height */
+
         text-align: center;
+
         color: #787878;
-        &:hover {
-          color: #011255;
-        }
       }
     }
   }

@@ -44,23 +44,23 @@ h1 {
 }
 
 .my-1 {
-  margin: 1rem;
+  margin: 1rem 0;
 }
 
 .my-2 {
-  margin: 2rem;
+  margin: 2rem 0;
 }
 
 .my-3 {
-  margin: 3rem;
+  margin: 3rem 0;
 }
 
 .my-4 {
-  margin: 4rem;
+  margin: 4rem 0;
 }
 
 .my-5 {
-  margin: 5rem;
+  margin: 5rem 0;
 }
 
 .navbar {
@@ -89,12 +89,15 @@ h1 {
 .navbar ul li .nav-link {
   text-decoration: none;
   color: black;
-  font-weight: 500;
+  font-weight: 600;
   font-size: 0.9rem;
   line-height: 21px;
-  /* identical to box height */
   text-align: center;
   color: #787878;
+}
+
+.navbar ul li .nav-link:hover {
+  color: #011255;
 }
 
 .navbar button {
@@ -167,5 +170,22 @@ h1 {
   /* or 178% */
   text-align: center;
   color: #787878;
+}
+
+.third-section p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.2rem;
+  line-height: 36px;
+  color: #787878;
+}
+
+.third-section .btn {
+  background: #ff7a00;
+  border-radius: 60px;
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: #fff;
 }
 /*# sourceMappingURL=style.css.map */
